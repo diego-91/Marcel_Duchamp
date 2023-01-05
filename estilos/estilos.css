@@ -213,6 +213,140 @@
 				margin:-4px 0px 0px 0px;/*<hr> tiene un margin-top y bottom por default y para sacarselo aplico estos estilos y para que se quede pegado al borde inferior del footer le apliqué el -4px al top. Para aplicar margin asi a los 4 lados el orden es en el sentido del reloj*/
 				width:70%;
 			}   
+/*tablets*/			
+@media screen and (min-width:481px) and (max-width:768px){
+	#contenedor{
+		margin-top:0px;
+		width:100%;
+	}
+	header{
+		height:100px;
+		width:100%;
+	}
+		header label{
+			display:block;
+			font-size:85px;		
+			left:9%;
+			position:absolute;
+			top:48%;
+		}
+		header label:hover{
+			color:rgb(185, 190, 191);
+			transition:0.1s;
+		}
+		#btn-menu:checked ~ nav #menu_principal{
+			transform:translateX(0%); /*dentro del eje x el menu aparecerá entero del lado positivo*/
+		}
+			header > a{
+				height:140px;
+				margin-top:14px;
+				width:140px;			
+			}
+				header .logo{
+					background-image:url("../imagenes/Logo_responsive.png");
+					height:	140px;
+					margin-top:-3px;
+					width:140px;
+				}
+			header nav hr{
+				display:none;
+			}
+				header nav #menu_principal{
+					border:solid 4px;
+					margin-right:1100px;
+					margin-top:-14px;
+					text-align:left;
+					transform:translateX(-100%);
+					transition:0.1s;
+					width:70%;
+				}
+					header nav #menu_principal li{
+						float:none;	
+						margin-left:0px;
+						margin-top:0;
+						width:100%;
+					}
+						header nav #menu_principal li a{
+							font-size:49px;
+							padding: 30px 17px 30px 40px;
+							width:100%; /*abarca el ancho del li*/;
+						}
+			#sección_historia{
+				margin-bottom:130px;
+				width:80%;
+			}
+				#sección_historia #Marcel_pipa{
+					float:none;
+					height:120%;
+					margin-bottom:70px;
+					width:100%;
+				}
+				#sección_historia article #linea_historia{
+					height:5px;
+					margin-left:0;
+					width:279px;
+				}
+				#sección_historia article #titulo_historia{
+					font-size:380%;							
+					margin-left:0%;
+				}	
+				#sección_historia article #parrafo_historia{
+					font-size:17px;
+					margin-bottom:42px;
+					margin-left:0;
+					width:100%;
+				}
+				#sección_historia article #ver_mas1{
+					font-size:27px;
+					margin-left:-8px;
+				}
+			#sección_obras{
+				margin:auto;
+				margin-bottom:145px;
+				width:80%;
+			}
+				#sección_obras article #orinal{
+					float:none;
+					margin-bottom:70px;
+					width:100%;
+				}	
+				#sección_obras article #linea_obras{
+					height:5px;
+					margin-left:0;
+					width:199px;
+				}
+				#sección_obras article #titulo_obras{
+					font-size:380%;
+					margin-left:0;
+				}
+				#sección_obras article #parrafo_obras{
+					font-size:17px;
+					margin-bottom:42px;
+					margin-left:0;
+					width:100%;
+				}
+				#sección_obras article #ver_mas2{
+					font-size:27px;
+					margin-left:-8px;
+				}
+	footer{
+		height:130px;
+	}
+		footer #span1{
+			font-size:25px;
+			margin-bottom:29px;
+			margin-top:42px;
+		}
+		footer #span2{
+			font-size:1vw;
+			margin-top:-20px;
+			padding-top:1px;
+		}
+		footer #hr_footer2{
+			margin-top:-5px;
+		}
+}
+
 /*Móviles*/
 @media screen and (min-width:0px) and (max-width:480px){
 	#contenedor{
@@ -222,12 +356,16 @@
 		height:85px;
 		width:100%;
 	}
+	header hr{
+		border:solid 1px black;
+		background:black;	
+	}
 		header label{
 			display:block;
 			font-size:22px;
 			left:10%;
 			position:absolute;
-			top:35%;
+			top:37%;
 		}
 		header label:hover{
 			color:rgb(185, 190, 191);
@@ -237,15 +375,15 @@
 			transform:translateX(0px);
 		}
 		header > a{
-			height:140px;
+			height:45px;
 			margin-top:14px;
-			width:140px;			
+			width:45px;	
 		}
 		header .logo{
 			background-image:url("../imagenes/Logo_responsive.png");
-			height:140px;
+			height:45px;
 			margin-top:-3px;
-			width:140px;
+			width:45px;
 		}
 		header nav hr{
 			display:none;
@@ -258,7 +396,7 @@
 				text-align:left;
 				transform:translateX(-100%);
 				transition:0.1s;
-				width:50%;
+				width:70%;
 			}
 				header nav #menu_principal li{
 					float:none;
@@ -267,7 +405,8 @@
 				}
 					header nav #menu_principal li a{
 						font-size:16px;
-						padding:10px 12px 10px 24px;
+						padding:10px 12px 10px 20px;
 						width:100%;
 					}
-				}
+
+}
