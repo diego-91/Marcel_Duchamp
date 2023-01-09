@@ -62,9 +62,9 @@
 				header nav #menu_principal li a{
 					color:black;
 					display:inline-block;
-					font-family:Quicksand, Cursus, nunito;
+					font-family:Quicksand, Nunito;
 					font-size:19px;
-					font-weight:500;
+					font-weight:700;
 					padding:8px 17px 8px 17px;
 					box-sizing:border-box;
 					text-decoration:none;
@@ -93,8 +93,8 @@
 			width:41.5%;
 		}
 		#sección_historia article #titulo_historia{
-			font-family:Leelawadee ui, Segoe UI, Homizio;
-			font-size:7vw;
+			font-family:Mulish, Merriwether Sans, "M PLUS 1p";
+			font-size:6.9vw;
 			margin-bottom:21px;
 			margin-left:39%;
 			margin-top:72px;
@@ -102,8 +102,8 @@
 			text-decoration-line:overline;*/
 		}
 		#sección_historia article #parrafo_historia{
-			font-family:Quicksand, Cursus, nunito;
-			font-size: 1.7vw;
+			font-family:Quicksand, Nunito;
+			font-size: 1.4vw;
 			margin-left:40.1%;
 			margin-bottom:65px;
 			width:61%;
@@ -115,11 +115,11 @@
 			-moz-background-clip:text;
 			-webkit-text-fill-color:transparent;
 			-moz-text-fill-color:transparent;
-						
 		}
 		#sección_historia article #ver_mas1{
-			font-family:Quicksand, Cursus, nunito;
+			font-family:Quicksand, nunito;
 			font-size:2.5vw;
+			font-weight:400;
 			color:black;
 			margin-left:-2px;
 			padding:8px;
@@ -145,18 +145,18 @@
 			height:7px;
 			margin-left:50.1%;
 			margin-bottom:-70px;
-			width:29.8%;
+			width:32.4%;
 		}
 		#sección_obras article #titulo_obras{
-			font-family:Leelawadee ui, Segoe UI, Homizio;
+			font-family:Mulish, Merriwether Sans, "M PLUS 1p";
 			font-size:7vw;
 			margin-bottom:21px;
 			margin-left:39%;
 			margin-top:72px;
 		}
 		#sección_obras article #parrafo_obras{
-			font-family:Quicksand, Cursus, nunito;
-			font-size: 1.7vw;
+			font-family:Quicksand, nunito;
+			font-size: 1.4vw;
 			margin-bottom:65px;
 			margin-left:50%;
 			width:50.6%;
@@ -164,12 +164,13 @@
 		#sección_obras article #parrafo_obras span{
 			background-image:linear-gradient(90deg, black, white);
 			background-clip:text;
+			-webkit-background-clip:text;
 			-moz-background-clip:text;
 			-webkit-text-fill-color:transparent;
 			-moz-text-fill-color:transparent;
 		}
 		#sección_obras article #ver_mas2{
-			font-family:Quicksand, Cursus, nunito;
+			font-family:Quicksand, nunito;
 			font-size:2.5vw;
 			color:black;
 			margin-left:-2px;
@@ -182,7 +183,8 @@
 		}
 	footer{
 			clear:both; /*sirve para limpiar el float de #marcel_pipa*/
-			font-family:Quicksand light, Cursus, nunito;
+			font-family:Quicksand, nunito;
+			font-weight:300;
 			height:180px;
 			text-align:center;
 		}
@@ -199,6 +201,8 @@
 			}
 			footer #span2{
 				display:inline-block;
+				font-family:Quicksand, nunito;
+				font-weight:500;
 				font-size:0.9vw;
 				margin-right:82%;
 				margin-top:29px;
@@ -350,6 +354,7 @@
 /*Móviles*/
 @media screen and (min-width:0px) and (max-width:480px){
 	#contenedor{
+		padding-top:100px;
 		width:100%;
 	}
 	header{
@@ -408,5 +413,90 @@
 						padding:10px 12px 10px 20px;
 						width:100%;
 					}
-
+	#sección_historia{
+		margin-bottom:33%;
+		text-align:center;
+		width:100%;
+	}
+		#sección_historia #Marcel_pipa{
+			float:none;
+			height:120%;
+			margin-bottom:50px;
+			width:100%;
+		}
+		#sección_historia article #linea_historia{
+			height:4px;
+			margin:auto;
+			width:77%;
+		}
+		#sección_historia article #titulo_historia{
+			font-size:16vw;
+			margin-left:-1%;
+			margin-bottom:12px;
+			margin-top:0px;
+		}
+		#sección_historia article #parrafo_historia{
+			font-size:6vw;
+			margin:auto;
+			margin-bottom:40px;
+			width:80%;
+		}
+		#sección_historia article #ver_mas1{
+			font-size:9vw;
+		}
+	#sección_obras{
+		text-align:center;
+		margin-bottom:29.8%;
+		margin-left:0;
+		width:100%;
+	}
+		#sección_obras article #orinal{
+			float:none;
+			margin-bottom:50px;
+			margin-right:0px;
+			width:100%;
+		}
+		#sección_obras article #linea_obras{
+			height:4px;
+			margin:auto;
+			margin-bottom:-70px;
+			width:55.5%;
+		}
+		#sección_obras article #titulo_obras{
+			font-size:16vw;
+			margin-left:0%;
+			margin-bottom:10px;
+		}
+		#sección_obras article #parrafo_obras{
+			font-size:6vw;
+			margin:auto;
+			margin-bottom:40px;
+			width:80%;
+		}
+		#sección_obras article #ver_mas2{
+			font-size:9vw;
+		}
+		footer{
+			height:120px;
+			text-align:center;
+		}
+			footer #hr_footer1{
+				background:black;
+				border:solid 1px;	
+			}
+			footer #span1{				
+				font-size:17px;
+				display:inline-block;
+				margin-bottom:35px;
+				margin-top:42px;
+			}
+			footer #span2{
+				font-size:2.1vw;
+				margin-top:-30px;
+				width:29.2%;
+			}
+			footer #hr_footer2{
+				border:solid 1px;
+				margin:-5px 0px 0px 0px;/*<hr> tiene un margin-top y bottom por default y para sacarselo aplico estos estilos y para que se quede pegado al borde inferior del footer le apliqué el -4px al top. Para aplicar margin asi a los 4 lados el orden es en el sentido del reloj*/
+			}   
 }
