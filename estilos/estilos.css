@@ -216,9 +216,9 @@
 				float:right;
 				margin:-4px 0px 0px 0px;/*<hr> tiene un margin-top y bottom por default y para sacarselo aplico estos estilos y para que se quede pegado al borde inferior del footer le apliqué el -4px al top. Para aplicar margin asi a los 4 lados el orden es en el sentido del reloj*/
 				width:70%;
-			}   
-/*tablets*/			
-@media screen and (min-width:481px) and (max-width:768px){
+			} 
+/*movil grande landscape y tablets*/
+	@media screen and (min-width:768px) and (max-width:1023px){
 	#contenedor{
 		margin-top:0px;
 		width:100%;
@@ -227,12 +227,15 @@
 		height:100px;
 		width:100%;
 	}
+	header hr{
+		border:solid 1px black
+	}
 		header label{
 			display:block;
-			font-size:85px;		
-			left:9%;
+			font-size:27px;		
+			left:10%;
 			position:absolute;
-			top:48%;
+			top:34%;
 		}
 		header label:hover{
 			color:rgb(185, 190, 191);
@@ -242,23 +245,24 @@
 			transform:translateX(0%); /*dentro del eje x el menu aparecerá entero del lado positivo*/
 		}
 			header > a{
-				height:140px;
+				height:45px;
 				margin-top:14px;
-				width:140px;			
+				width:45px;
 			}
 				header .logo{
 					background-image:url("../imagenes/Logo_responsive.png");
-					height:	140px;
-					margin-top:-3px;
-					width:140px;
+					height:	45px;
+					margin:auto;
+					margin-top:0px;
+					width:45px;
 				}
 			header nav hr{
 				display:none;
 			}
 				header nav #menu_principal{
-					border:solid 4px;
+					border:solid 2px;
 					margin-right:1100px;
-					margin-top:-14px;
+					margin-top:-4px;
 					text-align:left;
 					transform:translateX(-100%);
 					transition:0.1s;
@@ -271,70 +275,77 @@
 						width:100%;
 					}
 						header nav #menu_principal li a{
-							font-size:49px;
-							padding: 30px 17px 30px 40px;
+							font-size:19px;
+							font-weight:700;
+							padding:8px 17px 8px 17px;						
 							width:100%; /*abarca el ancho del li*/;
 						}
-			#sección_historia{
-				margin-bottom:130px;
-				width:80%;
+	#sección_historia{
+				margin-bottom:300px;
+				margin-top:390px;
+				width:94%;
 			}
 				#sección_historia #Marcel_pipa{
-					float:none;
 					height:120%;
 					margin-bottom:70px;
-					width:100%;
+					width:48%;
 				}
 				#sección_historia article #linea_historia{
 					height:5px;
-					margin-left:0;
-					width:279px;
+					margin-left:52.8%;
+					margin-top:-420px;
+					width:45.5%;
 				}
 				#sección_historia article #titulo_historia{
-					font-size:380%;							
-					margin-left:0%;
+					font-size:9vw;
+					margin-bottom:10px;
+					margin-left:52.2%;
+					width:44%;
 				}	
 				#sección_historia article #parrafo_historia{
-					font-size:17px;
-					margin-bottom:42px;
-					margin-left:0;
-					width:100%;
+					font-size: 16px;
+					margin-left:53%;
+					margin-bottom:65px;
+					width:47%;
 				}
 				#sección_historia article #ver_mas1{
 					font-size:27px;
-					margin-left:-8px;
+					margin-left:2.2%;
 				}
 			#sección_obras{
 				margin:auto;
-				margin-bottom:145px;
-				width:80%;
+				margin-bottom:300px;
+				width:94%;
 			}
 				#sección_obras article #orinal{
-					float:none;
 					margin-bottom:70px;
-					width:100%;
+					width:48%;
 				}	
 				#sección_obras article #linea_obras{
 					height:5px;
-					margin-left:0;
-					width:199px;
+					margin-left:52.4%;
+					width:30%;
 				}
 				#sección_obras article #titulo_obras{
 					font-size:380%;
-					margin-left:0;
+					margin-left:52%;
+					width:40%;
 				}
 				#sección_obras article #parrafo_obras{
 					font-size:17px;
-					margin-bottom:42px;
-					margin-left:0;
-					width:100%;
+					margin-bottom:65px;
+					margin-left:52.5%;
+					width:47%;
 				}
 				#sección_obras article #ver_mas2{
 					font-size:27px;
-					margin-left:-8px;
+					margin-left:1.6%;
 				}
 	footer{
 		height:130px;
+	}
+	footer #hr_footer1{
+		border:solid 1px black;
 	}
 		footer #span1{
 			font-size:25px;
@@ -342,17 +353,164 @@
 			margin-top:42px;
 		}
 		footer #span2{
-			font-size:1vw;
-			margin-top:-20px;
-			padding-top:1px;
+			font-size:1.4vw;
+			margin-top:-5px;
+			padding-top:0px;
+			width: 21.6%;
 		}
 		footer #hr_footer2{
+			border:solid 1px black;
+			margin-top:-2px;
+		}			
+}
+/*tablets*/			
+@media screen and (min-width:480px) and (max-width:767px){
+	#contenedor{
+		margin-top:0px;
+		width:100%;
+	}
+	header{
+		height:100px;
+		width:100%;
+	}
+	header hr{
+		border:solid 1px black;
+	}
+		header label{
+			display:block;
+			font-size:27px;		
+			left:10%;
+			position:absolute;
+			top:34%;
+		}
+		header label:hover{
+			color:rgb(185, 190, 191);
+			transition:0.1s;
+		}
+		#btn-menu:checked ~ nav #menu_principal{
+			transform:translateX(0%); /*dentro del eje x el menu aparecerá entero del lado positivo*/
+		}
+			header > a{
+				height:45px;
+				margin-top:14px;
+				width:45px;
+			}
+				header .logo{
+					background-image:url("../imagenes/Logo_responsive.png");
+					height:	45px;
+					margin:auto;
+					margin-top:0px;
+					width:45px;
+				}
+			header nav hr{
+				display:none;
+			}
+				header nav #menu_principal{
+					border:solid 2px;
+					margin-right:1100px;
+					margin-top:-4px;
+					text-align:left;
+					transform:translateX(-100%);
+					transition:0.1s;
+					width:70%;
+				}
+					header nav #menu_principal li{
+						float:none;	
+						margin-left:0px;
+						margin-top:0;
+						width:100%;
+					}
+						header nav #menu_principal li a{
+							font-size:19px;
+							font-weight:700;
+							padding:8px 17px 8px 17px;						
+							width:100%; /*abarca el ancho del li*/;
+						}
+			#sección_historia{
+				margin-bottom:150px;
+				margin-top:390px;
+				width:94%;
+			}
+				#sección_historia #Marcel_pipa{
+					height:120%;
+					margin-bottom:70px;
+					width:48%;
+				}
+				#sección_historia article #linea_historia{
+					height:5px;
+					margin-left:52.8%;
+					margin-top:-420px;
+					width:45.5%;
+				}
+				#sección_historia article #titulo_historia{
+					font-size:9vw;
+					margin-bottom:10px;
+					margin-left:52.2%;
+					width:44%;
+				}	
+				#sección_historia article #parrafo_historia{
+					font-size: 16px;
+					margin-left:53%;
+					margin-bottom:40px;
+					width:47%;
+				}
+				#sección_historia article #ver_mas1{
+					font-size:27px;
+					margin-left:2.2%;
+				}
+			#sección_obras{
+				margin:auto;
+				margin-bottom:145px;
+				width:94%;
+			}
+				#sección_obras article #orinal{
+					margin-bottom:70px;
+					width:50%;
+				}	
+				#sección_obras article #linea_obras{
+					height:5px;
+					margin-left:52.4%;
+					width:37.5%;
+				}
+				#sección_obras article #titulo_obras{
+					font-size:380%;
+					margin-left:0;
+				}
+				#sección_obras article #parrafo_obras{
+					font-size:17px;
+					margin-bottom:49px;
+					margin-left:52.5%;
+					width:47.5%;
+				}
+				#sección_obras article #ver_mas2{
+					font-size:27px;
+					margin-left:-1%;
+				}
+	footer{
+		height:130px;
+	}
+	footer #hr_footer1{
+		border:solid 1px black;
+	}
+		footer #span1{
+			font-size:25px;
+			margin-bottom:29px;
+			margin-top:42px;
+		}
+		footer #span2{
+			font-size:1.4vw;
+			margin-top:8px;
+			padding-top:0px;
+			width: 20%;
+		}
+		footer #hr_footer2{
+			border:solid 1px black;
 			margin-top:-5px;
 		}
 }
 
 /*Móviles*/
-@media screen and (min-width:0px) and (max-width:480px){
+@media screen and (min-width:0px) and (max-width:479px){
 	#contenedor{
 		padding-top:100px;
 		width:100%;
@@ -367,10 +525,10 @@
 	}
 		header label{
 			display:block;
-			font-size:22px;
+			font-size:27px;
 			left:10%;
 			position:absolute;
-			top:37%;
+			top:34%;
 		}
 		header label:hover{
 			color:rgb(185, 190, 191);
