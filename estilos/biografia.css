@@ -1,0 +1,38 @@
+#container{
+	background:red;
+	margin:auto;
+	max-width:1360px;
+	width:90%;
+}
+	header{
+		background:lime;
+		height:163px;
+		position:fixed;
+		top:0;
+		width:90%;
+	}
+		header hr{
+			border:solid 2px black;
+			margin-left:0;
+			margin-top:0;
+			width:70%;
+		}
+		header #btn-menu{
+			display:none;
+		}
+		header label{
+			display:none;
+		}
+		header > a{
+			display:block;
+			color:yellow;
+			margin:auto;
+			margin-top:33px;
+			width:169px;
+		}
+			header .logo{
+				background:url(../imagenes/Logo_escritorio_marcel.png);
+				height:92px;
+				text-indent:-2000px;
+				width:169px;
+			}
