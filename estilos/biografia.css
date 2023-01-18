@@ -5,9 +5,9 @@
 	width:90%;
 }
 	header{
-		background:lime;
 		height:163px;
 		position:fixed;
+		text-align:center;
 		top:0;
 		width:90%;
 	}
@@ -24,15 +24,17 @@
 			display:none;
 		}
 		header > a{
-			display:block;
-			color:yellow;
-			margin:auto;
-			margin-top:33px;
+			display:inline-block;
+			height:92px;
+			margin-bottom:33px;
+			margin-top:25px;
+			padding-top:-12px;
 			width:169px;
 		}
 			header .logo{
 				background:url(../imagenes/Logo_escritorio_marcel.png);
 				height:92px;
+				margin-top:0;
 				text-indent:-2000px;
 				width:169px;
 			}
