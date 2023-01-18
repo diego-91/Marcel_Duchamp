@@ -1,5 +1,4 @@
 #container{
-	background:red;
 	margin:auto;
 	margin-top:-0.6%;
 	max-width:1360px;
@@ -39,3 +38,30 @@
 				text-indent:-2000px;
 				width:169px;
 			}
+		header nav hr{
+					margin-left:29.6%;
+				}
+				header nav #menu_principal{
+					display:inline-block;
+					list-style-type:none;
+					padding:0;
+				} 
+					header nav #menu_principal li{
+					float:left;
+					margin-left:18px;
+					margin-right:18px;
+					margin-top:-6px;
+				}
+						header nav #menu_principal li a{
+							color:black;
+							display:inline-block;
+							font-family:Quicksand, Nunito;
+ 							font-size:19px;
+							font-weight:700;
+							padding:8px 17px 8px 17px;
+							text-decoration:none;
+						}
+						header nav #menu_principal li a:hover{
+							box-shadow: inset 0 4px rgb(185, 190, 191); /*inset izq. arriba*/
+					        transition:0.2s;
+					    }
