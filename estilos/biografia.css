@@ -2,6 +2,7 @@
 	margin:auto;
 	margin-top:-0.6%;
 	max-width:1360px;
+	padding-top:350px;
 	width:90%;
 }
 	header{
@@ -39,29 +40,95 @@
 				width:169px;
 			}
 		header nav hr{
-					margin-left:29.6%;
-				}
-				header nav #menu_principal{
-					display:inline-block;
-					list-style-type:none;
-					padding:0;
-				} 
-					header nav #menu_principal li{
+			margin-left:29.6%;
+		}
+			header nav #menu_principal{
+				display:inline-block;
+				list-style-type:none;
+				padding:0;
+			} 
+				header nav #menu_principal li{
 					float:left;
 					margin-left:18px;
 					margin-right:18px;
 					margin-top:-6px;
 				}
-						header nav #menu_principal li a{
-							color:black;
-							display:inline-block;
-							font-family:Quicksand, Nunito;
- 							font-size:19px;
-							font-weight:700;
-							padding:8px 17px 8px 17px;
-							text-decoration:none;
-						}
+					header nav #menu_principal li a{
+						color:black;
+						display:inline-block;
+						font-family:Quicksand, Nunito;
+ 						font-size:19px;
+						font-weight:700;
+						padding:8px 17px 8px 17px;
+						text-decoration:none;
+					}
 						header nav #menu_principal li a:hover{
 							box-shadow: inset 0 4px rgb(185, 190, 191); /*inset izq. arriba*/
 					        transition:0.2s;
 					    }
+	#biografia{
+		margin:auto;
+		margin-bottom:195px;
+		text-align:center;
+		width:90%;
+	}
+		#biografia #articulo_biografía{
+			margin-bottom:100px;
+		}
+		#biografia #linea_historia{
+			background:rgb(234,155,37);
+			border:none;
+			height:7px;
+			margin-bottom:-70px;
+			margin-left:29.6%;
+			width:41.5%;
+		}
+			#biografia h2{
+				font-family:Mulish, Merriwether Sans, "M PLUS 1p";
+				font-size:6.9vw;
+				margin-bottom:50px;
+				margin-top:72px;
+			}
+			#biografia .contenedor_imagen1{
+				float:left;	
+				margin-right:24px;			
+				position:relative;
+				z-index:-1;
+			}
+				#biografia .contenedor_imagen1 #imagen_1{
+					height:520px;
+					width:100%;
+				}
+				#biografia .contenedor_imagen1 .titulo_imagen1{
+					background:black;
+					color:white;
+					font-family:Quicksand, nunito;
+					font-size: 17px;
+					font-weight:300;
+					padding:3% 0% 3.4% 0%;
+					position:absolute;
+					width:100%;
+					top:90.5%;
+				}
+				#biografia .contenedor_imagen2{
+					float:right;	
+					margin-left:25px;				
+					position:relative;
+					z-index:-1;
+				}
+				#biografia .contenedor_imagen2 .titulo_imagen2{
+					background:black;
+					color:white;
+					font-family:Quicksand, nunito;
+					font-size: 17px;
+					font-weight:300;		
+					padding:3% 0% 3.4% 0%;
+					position:absolute;
+					top:90.9%;
+					width:100%;					
+				}
+				#biografia p{					
+					font-family:Quicksand, Nunito;
+					font-size: 17px;
+					text-align:left;
+				}
