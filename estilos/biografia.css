@@ -166,3 +166,44 @@
 				margin:-4px 0px 0px 0px;/*<hr> tiene un margin-top y bottom por default y para sacarselo aplico estos estilos y para que se quede pegado al borde inferior del footer le apliqué el -4px al top. Para aplicar margin asi a los 4 lados el orden es en el sentido del reloj*/
 				width:70%;
 		} 
+/*movil grande landscape y tablets portrait*/
+@media screen and (min-width:768px) and (max-width:1023px){
+	#container{
+		background:red;
+		width:100%;
+	}
+		header{
+			height:100px;
+			width:100%;
+		}
+			header hr{
+				border:solid 1px black;
+			}
+
+				header label{
+					display:block;
+					font-size:27px;		
+					left:10%;
+					position:absolute;
+					top:34%;
+				}
+				header label:hover{
+					color:rgb(185, 190, 191);
+					transition:0.1sv;
+				}
+				#btn-menu:checked ~ nav #menu_principal{
+					transform:translateX(0%);
+				}
+					header > a{
+						height:45px;
+						margin-top:14px;
+						width:45px;
+			}
+						header .logo{
+							background-image:url("../imagenes/Logo_responsive.png");
+							height:	45px;
+							margin:auto;
+							margin-top:0px;
+							width:45px;
+						}
+}
