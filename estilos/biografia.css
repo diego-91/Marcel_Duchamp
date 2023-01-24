@@ -205,4 +205,28 @@
 							margin-top:3px;
 							width:45px;
 						}
+			header nav hr{
+				display:none;
+			}
+			header nav #menu_principal{
+				border:solid 2px;
+				margin-right:294px;
+				margin-top:-2px;
+				text-align:left;
+				transform:translateX(-100%);
+				transition:0.1s;
+				width:70%;
+			}
+				header nav #menu_principal li{
+					float:none;
+					margin-left:0px;
+					margin-top:0;
+					width:100%;					
+				}
+				header nav #menu_principal li a{
+					box-sizing:border-box;	
+					font-size:19px;
+					font-weight:700;
+					width:100%;
+				}	
 }
