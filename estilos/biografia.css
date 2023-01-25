@@ -272,5 +272,43 @@
 					footer #hr_footer2{
 						border:solid 1px black;
 						margin-top:-2px;
-					}		
+					}
+}
+/*movil landscape y tablet portrait*/	
+@media screen and (min-width:480px) and (max-width:767px){
+	#container{
+		width:100%;
+	}
+		header{
+			height:100px;
+			width:100%;
+		}
+			header hr{
+				border:solid 1px black;
+			}
+			header label{
+				display:block;
+				font-size:27px;		
+				left:10%;
+				position:absolute;
+				top:35%;
+			}
+			header label:hover{
+				color:rgb(185, 190, 191);
+				transition:0.1s;
+			}
+			header > a{
+				height:45px;
+				margin-top:17px;
+				width:45px;
+			}
+				header .logo{
+					background-image:url("../imagenes/Logo_responsive.png");
+					height:	45px;
+					margin:auto;
+					margin-top:0px;
+					width:45px;
+				}
+
+
 }		
