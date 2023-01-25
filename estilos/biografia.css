@@ -2,6 +2,7 @@
 	margin:auto;
 	margin-top:-0.6%;
 	max-width:1360px;
+	overflow:hidden;
 	padding-top:350px;
 	width:90%;
 }
@@ -178,7 +179,6 @@
 			header hr{
 				border:solid 1px black;
 			}
-
 				header label{
 					display:block;
 					font-size:27px;		
@@ -188,7 +188,7 @@
 				}
 				header label:hover{
 					color:rgb(185, 190, 191);
-					transition:0.1sv;
+					transition:0.1s;
 				}
 				#btn-menu:checked ~ nav #menu_principal{
 					transform:translateX(0%);
@@ -223,10 +223,33 @@
 					margin-top:0;
 					width:100%;					
 				}
-				header nav #menu_principal li a{
-					box-sizing:border-box;	
-					font-size:19px;
-					font-weight:700;
-					width:100%;
-				}	
-}
+					header nav #menu_principal li a{
+						font-size:19px;
+						font-weight:700;
+						width:100%;
+					}
+			#biografia{
+				margin-bottom:140px;
+				margin-top:-162px;
+				width:94%;
+			}
+				#biografia #linea_historia{
+					height:5px;
+					width:47%;
+				}
+				#biografia h2{
+					font-size:9vw;
+					margin-left:5.5%;
+				}
+					#biografia .contenedor_imagen1 #imagen_1{
+						height:450px;
+						width:100%;
+					}
+					#biografia p{
+						font-size:16px;					
+					}
+					#biografia .contenedor_imagen2 #imagen_2{
+						height:470px;
+						width:100%;
+					}	
+}		
