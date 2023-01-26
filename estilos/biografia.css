@@ -337,7 +337,7 @@
 							width:100%;
 						}
 		#biografia{
-			margin-bottom:150px;
+			margin-bottom:130px;
 			margin-top:-157px;
 			width:94%;
 		}
@@ -365,6 +365,26 @@
 							left:12.6%;
 							top:89.1%;
 							width:74.7%;
-						} 
-		
+						}
+		footer{
+			height:130px;
+		}
+		footer #hr_footer1{
+			border:solid 1px black;
+		}
+			footer #span1{
+				font-size:25px;
+				margin-bottom:29px;
+				margin-top:42px;
+			}
+			footer #span2{
+				font-size:1.4vw;
+				margin-top:8px;
+				padding-top:0px;
+				width: 20%;
+			}
+			footer #hr_footer2{
+				border:solid 1px black;
+				margin-top:-5px;
+			}
 }
