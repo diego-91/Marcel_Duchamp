@@ -224,6 +224,7 @@
 					width:100%;					
 				}
 					header nav #menu_principal li a{
+						box-sizing:border-box;
 						font-size:19px;
 						font-weight:700;
 						width:100%;
@@ -335,4 +336,35 @@
 							box-sizing:border-box;
 							width:100%;
 						}
+		#biografia{
+			margin-bottom:150px;
+			margin-top:-157px;
+			width:94%;
+		}
+			#biografia #linea_historia{
+				height:5px; 
+			}
+				#biografia h2{
+					font-size:48.1px;
+				}
+					#biografia .contenedor_imagen1{
+						float:none;
+						width:100%;
+					}
+						#biografia .contenedor_imagen1 #imagen_1{
+							height:700px;
+						}
+						#biografia .contenedor_imagen1 .titulo_imagen1{
+							top:91.7%;
+						} 
+					#biografia .contenedor_imagen2{
+						float:none;
+						margin:auto;
+					}
+						#biografia .contenedor_imagen2 .titulo_imagen2{
+							left:12.6%;
+							top:89.1%;
+							width:74.7%;
+						} 
+		
 }
