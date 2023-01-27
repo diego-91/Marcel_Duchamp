@@ -236,11 +236,11 @@
 			}
 				#biografia #linea_historia{
 					height:5px;
+					margin-left:26.8%;
 					width:47%;
 				}
 				#biografia h2{
 					font-size:9vw;
-					margin-left:5.5%;
 				}
 					#biografia .contenedor_imagen1 #imagen_1{
 						height:450px;
@@ -388,6 +388,7 @@
 				margin-top:-5px;
 			}
 }
+/*Móviles portrait*/
 @media screen and (min-width:0px) and (max-width:479px){
 	#container{
 		width:100%;
@@ -485,10 +486,33 @@
 					}
 						#biografia .contenedor_imagen2 .titulo_imagen2{
 							left:12%;
-							padding:2.5% 0% 2.8% 0%;
+							padding:2.8% 0% 2.6% 0%;
 							top:91.6%;
 						}
 						#biografia iframe{
 							width:90%;
-						}	
+						}
+		footer{
+			height:120px;
+			text-align:center;
+		}
+			footer #hr_footer1{
+				background:black;
+				border:solid 1px;	
+			}
+			footer #span1{				
+				font-size:17px;
+				display:inline-block;
+				margin-bottom:35px;
+				margin-top:42px;
+			}
+			footer #span2{
+				font-size:2vw;
+				margin-top:-31px;
+				width:29%;
+			}
+			footer #hr_footer2{
+				border:solid 1px;
+				margin:-1.5px 0px 0px 0px;
+			} 	
 }

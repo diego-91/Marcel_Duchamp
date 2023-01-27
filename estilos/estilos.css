@@ -505,7 +505,7 @@
 		}
 		footer #hr_footer2{
 			border:solid 1px black;
-			margin-top:-5px;
+			margin-top:-1.6px;
 		}
 }
 
@@ -655,6 +655,6 @@
 			}
 			footer #hr_footer2{
 				border:solid 1px;
-				margin:-5px 0px 0px 0px;/*<hr> tiene un margin-top y bottom por default y para sacarselo aplico estos estilos y para que se quede pegado al borde inferior del footer le apliqué el -4px al top. Para aplicar margin asi a los 4 lados el orden es en el sentido del reloj*/
+				margin:-1.5px 0px 0px 0px;/*<hr> tiene un margin-top y bottom por default y para sacarselo aplico estos estilos y para que se quede pegado al borde inferior del footer le apliqué el -4px al top. Para aplicar margin asi a los 4 lados el orden es en el sentido del reloj*/
 			}   
 }
