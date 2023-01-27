@@ -388,3 +388,41 @@
 				margin-top:-5px;
 			}
 }
+@media screen and (min-width:0px) and (max-width:479px){
+	#container{
+		width:100%;
+	}
+		header{
+			height:85px;
+			width:100%;
+		}
+			header hr{
+				border:solid 1px black;
+				background:black;	
+			}
+				header label{
+					display:block;
+					font-size:27px;
+					left:10%;
+					position:absolute;
+					top:34%;
+				}
+				header label:hover{
+					color:rgb(185, 190, 191);
+					transition:0.1s;
+				}
+				btn-menu:checked ~ nav #menu_principal{
+					transform:translateX(0%);
+				}	
+				header > a{
+					height:45px;
+					margin-top:14px;
+					width:45px;	
+				}
+				header .logo{
+					background-image:url("../imagenes/Logo_responsive.png");
+					height:45px;
+					margin-top:-3px;
+					width:45px;
+				}	
+}
