@@ -447,4 +447,48 @@
 							width:100%;
 							box-sizing:border-box;
 						}
+		#biografia{
+			margin-bottom:130px;
+			margin-top:-165px;
+			width:100%;
+		}
+			#biografia #linea_historia{
+				height:4px;
+				margin:auto;
+				margin-bottom:-72px;
+				width:60%;
+			}
+				#biografia h2{
+					font-size:40px;
+					margin-bottom:30px;
+					margin-right:1%;
+				}
+					#biografia .contenedor_imagen1{
+						float:none;
+						height:;
+						margin-bottom:15px;
+						width:100%;
+					}	
+						#biografia .contenedor_imagen1 #imagen_1{
+							height:100%;
+						}
+						#biografia .contenedor_imagen1 .titulo_imagen1{
+							padding:3.5% 0% 3.1% 0%;
+						}
+						#biografia p{
+							margin:auto;
+							width:90%;
+						}
+					#biografia .contenedor_imagen2{
+						margin-bottom:15px;
+						margin-top:15px;
+					}
+						#biografia .contenedor_imagen2 .titulo_imagen2{
+							left:12%;
+							padding:2.5% 0% 2.8% 0%;
+							top:91.6%;
+						}
+						#biografia iframe{
+							width:90%;
+						}	
 }
