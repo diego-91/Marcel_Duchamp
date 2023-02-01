@@ -1,0 +1,39 @@
+#container{
+	margin:auto;
+	max-width:1360px;
+	overflow:hidden; /*quita los margenes superiores y de la derecha (desaparece el scroll derecho)*/
+	width:90%;
+}	
+	header{
+		height:163px;
+		text-align:center;
+		width:90%;
+		position:fixed;
+	}
+		header hr{
+			border:solid 2px black;
+			margin-left:0;
+			margin-top:0;
+			width:70%;
+		}
+		header #btn-menu{
+			display:none;
+		}
+		header label{
+			display:none;
+		}	
+		header > a{
+			display:inline-block;
+			height:92px;
+			margin-bottom:33px;
+			margin-top:24px;
+			padding-top:-12px;
+			width:169px;
+		}
+			header .logo{
+				background:url(../imagenes/Logo_escritorio_marcel.png);
+				height:92px;
+				margin-top:0;
+				text-indent:-2000px;
+				width:169px;
+			}
