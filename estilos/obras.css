@@ -106,6 +106,17 @@
 					top:78%;
 					width:100%;
 				}
+				#sección_obras article .contenedor_imagenes .air{					
+				background:black;
+					color:white;
+					font-family:Quicksand, nunito;
+					font-size: 17px;
+					font-weight:300;
+					padding:2.2% 0% 3% 0%;
+					position:absolute;
+					top:91%;
+					width:100%;
+			}	
 					#sección_obras article .contenedor_imagenes #bottlerack{
 						font-family:Quicksand, nunito;
 						font-size: 17px;
@@ -269,6 +280,9 @@
 		}
 			#sección_obras article .contenedor_imagenes .titulo_imagen{					
 				top:91%;
+			}
+			#sección_obras article .contenedor_imagenes .air{					
+					top:91%;
 			}	
 			#sección_obras article .contenedor_imagenes #sugar{
 				font-size: 17px;
