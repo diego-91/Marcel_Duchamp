@@ -264,6 +264,27 @@
 						font-weight:700;
 						width:100%;
 					}		
-				
-
+		#sección_obras{
+			margin-top:190px;
+		}
+			#sección_obras article .contenedor_imagenes .titulo_imagen{					
+					top:91%;
+				}	
+			#sección_obras article .contenedor_imagenes #sugar{
+						font-size: 17px;
+						font-weight:300;
+						top:69%;
+					}
+			#sección_obras article .contenedor_imagenes #peigne{
+						top:62%;
+					}
+			#sección_obras article .contenedor_imagenes #glass{
+						top:80%;
+					}
+			#sección_obras article .contenedor_imagenes #fuente{
+						top:91%;
+					}
+			#sección_obras article .contenedor_imagenes #trap{
+						top:56%;
+					}
 }
