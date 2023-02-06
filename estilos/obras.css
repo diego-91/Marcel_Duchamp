@@ -268,23 +268,45 @@
 			margin-top:190px;
 		}
 			#sección_obras article .contenedor_imagenes .titulo_imagen{					
-					top:91%;
-				}	
+				top:91%;
+			}	
 			#sección_obras article .contenedor_imagenes #sugar{
-						font-size: 17px;
-						font-weight:300;
-						top:69%;
-					}
+				font-size: 17px;
+				font-weight:300;
+				top:69%;
+			}
 			#sección_obras article .contenedor_imagenes #peigne{
-						top:62%;
-					}
+				top:62%;
+			}
 			#sección_obras article .contenedor_imagenes #glass{
-						top:80%;
-					}
+				top:80%;
+			}
 			#sección_obras article .contenedor_imagenes #fuente{
-						top:91%;
-					}
+				top:91%;
+			}
 			#sección_obras article .contenedor_imagenes #trap{
-						top:56%;
-					}
+				top:56%;
+			}
+		footer{
+			height:120px;
+			text-align:center;
+		}
+			footer #hr_footer1{
+				border:solid 1px black;	
+			}
+			footer #span1{				
+				font-size:17px;
+				display:inline-block;
+				margin-bottom:35px;
+				margin-top:42px;
+			}
+			footer #span2{
+				font-size:1vw;
+				margin-top:-31px;
+				width:27%;
+			}
+			footer #hr_footer2{
+				border:solid 1px black;
+				margin:-2px 0px 0px 0px;
+			} 
 }
