@@ -116,7 +116,7 @@
 					position:absolute;
 					top:91%;
 					width:100%;
-			}	
+				}	
 					#sección_obras article .contenedor_imagenes #bottlerack{
 						font-family:Quicksand, nunito;
 						font-size: 17px;
@@ -389,10 +389,10 @@
 					height:5px;
 					margin-bottom:2px;
 					width:30%;
-		}
+				}
 				#sección_obras article h2{
 					font-size:48.1px;
-		}
+				}
 				#sección_obras article .contenedor_imagenes .imagen{					
 					width:50%;
 				}
@@ -414,5 +414,25 @@
 			    #sección_obras article .contenedor_imagenes #fuente{
 			    	top:91%;
 			    }
-			
+			footer{
+				height:130px;
+			}
+			footer #hr_footer1{
+				border:solid 1px black;
+			}
+				footer #span1{
+					font-size:25px;
+					margin-bottom:29px;
+					margin-top:42px;
+				}
+				footer #span2{
+					font-size:1.4vw;
+					margin-top:0px;
+					padding-top:0px;
+					width: 20%;
+				}
+				footer #hr_footer2{
+					border:solid 1px black;
+					margin-top:-1px;
+				}
 }
