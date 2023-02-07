@@ -380,5 +380,39 @@
 							header nav #menu_principal li a{
 								width:100%;
 							}
-
+			#sección_obras{
+				margin-bottom:130px;
+				margin-top:180px;
+				width:94%;
+			}
+				#sección_obras article hr{
+					height:5px;
+					margin-bottom:2px;
+					width:30%;
+		}
+				#sección_obras article h2{
+					font-size:48.1px;
+		}
+				#sección_obras article .contenedor_imagenes .imagen{					
+					width:50%;
+				}
+				#sección_obras article .contenedor_imagenes img{
+					width:100%;
+				}
+				#sección_obras article .contenedor_imagenes #bottlerack{					
+					top:78%;
+			    }
+			    #sección_obras article .contenedor_imagenes #hat{
+			    	top:90%;
+			    }					
+			    #sección_obras article .contenedor_imagenes #prelud{
+			    	top:90%;
+			    }
+			    #sección_obras article .contenedor_imagenes #glass{
+			    	top:82%;
+			    }
+			    #sección_obras article .contenedor_imagenes #fuente{
+			    	top:91%;
+			    }
+			
 }
