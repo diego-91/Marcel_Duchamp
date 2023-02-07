@@ -361,4 +361,24 @@
 					margin-top:-3px;
 					width:45px;
 				}
+				header nav hr{
+					display:none;
+				}
+					header nav #menu_principal{
+						border:solid 2px;
+						margin-right:290px;
+						margin-top:-15px;
+						transform:translateX(-100%);
+						text-align:left;
+						transition:0.1s;
+						width:70%;
+					}
+						header nav #menu_principal li{
+							float:none;
+							margin:0;
+						}
+							header nav #menu_principal li a{
+								width:100%;
+							}
+
 }
