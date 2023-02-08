@@ -131,7 +131,7 @@
 		}
 		#sección_obras{
 			margin-left:5%;
-			margin-bottom:29.8%;
+			margin-bottom:470px;
 			width:85%;
 		}
 		#sección_obras article #orinal{
@@ -181,42 +181,40 @@
 			box-shadow:inset 0 4px rgb(185, 190, 191);
 			transition:0.2s;
 		}
-	footer{
-			clear:both; /*sirve para limpiar el float de #marcel_pipa*/
-			font-family:Quicksand, nunito;
-			font-weight:300;
-			height:180px;
-			text-align:center;
+		footer{
+		box-sizing:border-box;
+		font-family:Quicksand, nunito;
+		height:180px;
+		text-align:center;
+	}
+		footer #hr_footer1{
+			border:solid 2px black;	
+			margin-left:0;
+			width:70%;
 		}
-			footer #hr_footer1{
-				border:solid 2px black;	
-				margin-left:0;
-				width:70%;
-			}
-			footer #span1{				
-				font-size:27px;
-				display:inline-block;
-				margin-bottom:35px;
-				margin-top:65px;
-			}
-			footer #span2{
-				display:inline-block;
-				font-family:Quicksand, nunito;
-				font-weight:500;
-				font-size:0.8vw;
-				margin-right:82%;
-				margin-top:29px;
-				padding-bottom:0px;
-				padding-right:0px;
-				width: 24%;
-			}
-			footer #hr_footer2{
-				border:solid 2px black;
-				display:block;
-				float:right;
-				margin:-4px 0px 0px 0px;/*<hr> tiene un margin-top y bottom por default y para sacarselo aplico estos estilos y para que se quede pegado al borde inferior del footer le apliqué el -4px al top. Para aplicar margin asi a los 4 lados el orden es en el sentido del reloj*/
-				width:70%;
-			} 
+		footer #span1{
+			font-size:27px;
+			font-weight:300;
+			display:inline-block;
+			margin-bottom:35px;
+			margin-top:65px;
+		}
+		footer #span2{
+			display:inline-block;
+			font-weight:500;
+			font-size:0.8vw;
+			margin-right:82%;
+			margin-top:23px;
+			padding-bottom:0px;
+			width:23.5%;
+		}
+		footer #hr_footer2{
+			border:solid 2px black;
+			display:block;
+			float:right;
+			margin:-4px 0px 0px 0px;
+			width:70%;
+		}
 /*movil grande landscape y tablets*/
 	@media screen and (min-width:768px) and (max-width:1023px){
 	#contenedor{
