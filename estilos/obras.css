@@ -555,6 +555,44 @@
 			    #sección_obras article .contenedor_imagenes #trap{
 					top:84%;
 				}
-
-
+		footer{
+			height:120px;
+			text-align:center;
+		}
+			footer #hr_footer1{
+				background:black;
+				border:solid 1px;	
+			}
+			footer #span1{				
+				font-size:17px;
+				display:inline-block;
+				margin-bottom:31px;
+				margin-top:42px;
+			}
+			footer #span2{
+				font-size:2vw;
+				height:13px;
+				margin-top:-31px;
+				width:29%;
+			}
+			footer #hr_footer2{
+				border:solid 1px;
+				margin:-1.5px 0px 0px 0px;/*<hr> tiene un margin-top y bottom por default y para sacarselo aplico estos estilos y para que se quede pegado al borde inferior del footer le apliqué el -4px al top. Para aplicar margin asi a los 4 lados el orden es en el sentido del reloj*/
+			} 
 }
+/*footer #span2{
+			display:inline-block;
+			font-weight:500;
+			font-size:0.8vw;
+			margin-right:82%;
+			margin-top:23px;
+			padding-bottom:0px;
+			width:23.5%;
+		}
+		footer #hr_footer2{
+			border:solid 2px black;
+			display:block;
+			float:right;
+			margin:-4px 0px 0px 0px;
+			width:70%;
+		} */
