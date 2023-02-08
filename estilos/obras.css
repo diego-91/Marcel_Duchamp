@@ -278,6 +278,14 @@
 		#sección_obras{
 			margin-top:190px;
 		}
+			#sección_obras article hr{				
+				height:5px;
+				margin-bottom:3px;
+				width:35%;
+		}
+			#sección_obras article h2{
+				font-size:9vw;
+			}
 			#sección_obras article .contenedor_imagenes .titulo_imagen{					
 				top:91%;
 			}
