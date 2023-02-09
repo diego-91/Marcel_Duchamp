@@ -380,13 +380,13 @@
 			}
 			footer #span2{
 				font-size:1.4vw;
-				margin-top:8px;
+				margin-top:0px;
 				padding-top:0px;
 				width: 20%;
 			}
 			footer #hr_footer2{
 				border:solid 1px black;
-				margin-top:-5px;
+				margin-top:-1.3px;
 			}
 }
 /*Móviles portrait*/
